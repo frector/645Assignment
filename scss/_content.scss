@@ -1,0 +1,29 @@
+#headline {
+    @include fullCenter;
+    height:130px;
+    background:$headlineOrange;
+    margin:0 auto;
+    h1 {
+        color:$mainWhite;
+        font-size:2.5em;
+        font-weight:100;
+        padding-top:50px;
+    }
+}
+#content {
+        width:940px;
+        margin:20px auto;
+    h3 {
+        color:$h3Gray;
+        font-size:2em;
+        font-weight:400;
+    }
+    #products {
+        width:460px;
+        float:left;
+        img      {@include productsPics;}
+        article  {margin-bottom:40px;}
+        h4       {line-height:1em;}
+    }
+    #testimonials {width:460px;float:right;}
+}

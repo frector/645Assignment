@@ -1,0 +1,14 @@
+@mixin fullCenter {
+    width: 100%;
+    text-align: center;
+}
+@mixin productsPics {
+    float:left;
+    margin-right:20px;
+}
+
+/*@mixin break($length){
+    @media (min-width:$length) {
+        @content;
+    }
+}*/
